@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/progname.dir/main.cpp.o  -o progname.exe -Wl,--out-implib,libprogname.dll.a -Wl,--major-image-version,0,--minor-image-version,0 /usr/lib/libboost_date_time.dll.a 

@@ -4,11 +4,13 @@ project(FinAnal)
 find_package(Boost 1.36.0 COMPONENTS date_time)
 IF (Boost_FOUND)
     include_directories(${Boost_INCLUDE_DIR})
-    add_executable(FinAnal main.cpp date_utils.h market.h risk_engine.h trade.cpp erfinv.h erfinv.cpp black_scholes.cpp black_scholes.h utils.h)
+    add_executable(FinAnal src/utils/date_utils.h src/containers/market.h src/containers/calculation_engine.h src/containers/trade.cpp
+            src/utils/erfinv.h src/utils/erfinv.cpp src/models/black_scholes.cpp src/models/black_scholes.h src/utils/utils.h src/models/model_config.cpp
+            src/models/model_config.h src/containers/calculation_engine.cpp test/test_black_scholes.cpp src/main_old.cpp test/test_runner.cpp test/test_date_utils.cpp src/models/currency.h)
     target_link_libraries(FinAnal ${Boost_LIBRARIES})
 endif ()
 
 
 set(CMAKE_CXX_STANDARD 17)
 
-#add_executable(FinAnal main.cpp)
+#add_executable(FinAnal main.aglib)

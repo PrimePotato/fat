@@ -57,76 +57,151 @@ include CMakeFiles/FinAnal.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/FinAnal.dir/flags.make
 
-CMakeFiles/FinAnal.dir/main.cpp.o: CMakeFiles/FinAnal.dir/flags.make
-CMakeFiles/FinAnal.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/naked/CLionProjects/FinAnal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FinAnal.dir/main.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FinAnal.dir/main.cpp.o -c /cygdrive/c/Users/naked/CLionProjects/FinAnal/main.cpp
+CMakeFiles/FinAnal.dir/src/containers/trade.cpp.o: CMakeFiles/FinAnal.dir/flags.make
+CMakeFiles/FinAnal.dir/src/containers/trade.cpp.o: ../src/containers/trade.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/naked/CLionProjects/FinAnal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FinAnal.dir/src/containers/trade.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FinAnal.dir/src/containers/trade.cpp.o -c /cygdrive/c/Users/naked/CLionProjects/FinAnal/src/containers/trade.cpp
 
-CMakeFiles/FinAnal.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FinAnal.dir/main.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/naked/CLionProjects/FinAnal/main.cpp > CMakeFiles/FinAnal.dir/main.cpp.i
+CMakeFiles/FinAnal.dir/src/containers/trade.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FinAnal.dir/src/containers/trade.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/naked/CLionProjects/FinAnal/src/containers/trade.cpp > CMakeFiles/FinAnal.dir/src/containers/trade.cpp.i
 
-CMakeFiles/FinAnal.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FinAnal.dir/main.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/naked/CLionProjects/FinAnal/main.cpp -o CMakeFiles/FinAnal.dir/main.cpp.s
+CMakeFiles/FinAnal.dir/src/containers/trade.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FinAnal.dir/src/containers/trade.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/naked/CLionProjects/FinAnal/src/containers/trade.cpp -o CMakeFiles/FinAnal.dir/src/containers/trade.cpp.s
 
-CMakeFiles/FinAnal.dir/trade.cpp.o: CMakeFiles/FinAnal.dir/flags.make
-CMakeFiles/FinAnal.dir/trade.cpp.o: ../trade.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/naked/CLionProjects/FinAnal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FinAnal.dir/trade.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FinAnal.dir/trade.cpp.o -c /cygdrive/c/Users/naked/CLionProjects/FinAnal/trade.cpp
+CMakeFiles/FinAnal.dir/src/utils/erfinv.cpp.o: CMakeFiles/FinAnal.dir/flags.make
+CMakeFiles/FinAnal.dir/src/utils/erfinv.cpp.o: ../src/utils/erfinv.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/naked/CLionProjects/FinAnal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FinAnal.dir/src/utils/erfinv.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FinAnal.dir/src/utils/erfinv.cpp.o -c /cygdrive/c/Users/naked/CLionProjects/FinAnal/src/utils/erfinv.cpp
 
-CMakeFiles/FinAnal.dir/trade.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FinAnal.dir/trade.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/naked/CLionProjects/FinAnal/trade.cpp > CMakeFiles/FinAnal.dir/trade.cpp.i
+CMakeFiles/FinAnal.dir/src/utils/erfinv.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FinAnal.dir/src/utils/erfinv.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/naked/CLionProjects/FinAnal/src/utils/erfinv.cpp > CMakeFiles/FinAnal.dir/src/utils/erfinv.cpp.i
 
-CMakeFiles/FinAnal.dir/trade.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FinAnal.dir/trade.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/naked/CLionProjects/FinAnal/trade.cpp -o CMakeFiles/FinAnal.dir/trade.cpp.s
+CMakeFiles/FinAnal.dir/src/utils/erfinv.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FinAnal.dir/src/utils/erfinv.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/naked/CLionProjects/FinAnal/src/utils/erfinv.cpp -o CMakeFiles/FinAnal.dir/src/utils/erfinv.cpp.s
 
-CMakeFiles/FinAnal.dir/erfinv.cpp.o: CMakeFiles/FinAnal.dir/flags.make
-CMakeFiles/FinAnal.dir/erfinv.cpp.o: ../erfinv.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/naked/CLionProjects/FinAnal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FinAnal.dir/erfinv.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FinAnal.dir/erfinv.cpp.o -c /cygdrive/c/Users/naked/CLionProjects/FinAnal/erfinv.cpp
+CMakeFiles/FinAnal.dir/src/models/black_scholes.cpp.o: CMakeFiles/FinAnal.dir/flags.make
+CMakeFiles/FinAnal.dir/src/models/black_scholes.cpp.o: ../src/models/black_scholes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/naked/CLionProjects/FinAnal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FinAnal.dir/src/models/black_scholes.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FinAnal.dir/src/models/black_scholes.cpp.o -c /cygdrive/c/Users/naked/CLionProjects/FinAnal/src/models/black_scholes.cpp
 
-CMakeFiles/FinAnal.dir/erfinv.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FinAnal.dir/erfinv.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/naked/CLionProjects/FinAnal/erfinv.cpp > CMakeFiles/FinAnal.dir/erfinv.cpp.i
+CMakeFiles/FinAnal.dir/src/models/black_scholes.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FinAnal.dir/src/models/black_scholes.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/naked/CLionProjects/FinAnal/src/models/black_scholes.cpp > CMakeFiles/FinAnal.dir/src/models/black_scholes.cpp.i
 
-CMakeFiles/FinAnal.dir/erfinv.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FinAnal.dir/erfinv.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/naked/CLionProjects/FinAnal/erfinv.cpp -o CMakeFiles/FinAnal.dir/erfinv.cpp.s
+CMakeFiles/FinAnal.dir/src/models/black_scholes.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FinAnal.dir/src/models/black_scholes.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/naked/CLionProjects/FinAnal/src/models/black_scholes.cpp -o CMakeFiles/FinAnal.dir/src/models/black_scholes.cpp.s
 
-CMakeFiles/FinAnal.dir/black_scholes.cpp.o: CMakeFiles/FinAnal.dir/flags.make
-CMakeFiles/FinAnal.dir/black_scholes.cpp.o: ../black_scholes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/naked/CLionProjects/FinAnal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FinAnal.dir/black_scholes.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FinAnal.dir/black_scholes.cpp.o -c /cygdrive/c/Users/naked/CLionProjects/FinAnal/black_scholes.cpp
+CMakeFiles/FinAnal.dir/src/models/model_config.cpp.o: CMakeFiles/FinAnal.dir/flags.make
+CMakeFiles/FinAnal.dir/src/models/model_config.cpp.o: ../src/models/model_config.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/naked/CLionProjects/FinAnal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FinAnal.dir/src/models/model_config.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FinAnal.dir/src/models/model_config.cpp.o -c /cygdrive/c/Users/naked/CLionProjects/FinAnal/src/models/model_config.cpp
 
-CMakeFiles/FinAnal.dir/black_scholes.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FinAnal.dir/black_scholes.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/naked/CLionProjects/FinAnal/black_scholes.cpp > CMakeFiles/FinAnal.dir/black_scholes.cpp.i
+CMakeFiles/FinAnal.dir/src/models/model_config.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FinAnal.dir/src/models/model_config.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/naked/CLionProjects/FinAnal/src/models/model_config.cpp > CMakeFiles/FinAnal.dir/src/models/model_config.cpp.i
 
-CMakeFiles/FinAnal.dir/black_scholes.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FinAnal.dir/black_scholes.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/naked/CLionProjects/FinAnal/black_scholes.cpp -o CMakeFiles/FinAnal.dir/black_scholes.cpp.s
+CMakeFiles/FinAnal.dir/src/models/model_config.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FinAnal.dir/src/models/model_config.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/naked/CLionProjects/FinAnal/src/models/model_config.cpp -o CMakeFiles/FinAnal.dir/src/models/model_config.cpp.s
+
+CMakeFiles/FinAnal.dir/src/containers/calculation_engine.cpp.o: CMakeFiles/FinAnal.dir/flags.make
+CMakeFiles/FinAnal.dir/src/containers/calculation_engine.cpp.o: ../src/containers/calculation_engine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/naked/CLionProjects/FinAnal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/FinAnal.dir/src/containers/calculation_engine.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FinAnal.dir/src/containers/calculation_engine.cpp.o -c /cygdrive/c/Users/naked/CLionProjects/FinAnal/src/containers/calculation_engine.cpp
+
+CMakeFiles/FinAnal.dir/src/containers/calculation_engine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FinAnal.dir/src/containers/calculation_engine.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/naked/CLionProjects/FinAnal/src/containers/calculation_engine.cpp > CMakeFiles/FinAnal.dir/src/containers/calculation_engine.cpp.i
+
+CMakeFiles/FinAnal.dir/src/containers/calculation_engine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FinAnal.dir/src/containers/calculation_engine.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/naked/CLionProjects/FinAnal/src/containers/calculation_engine.cpp -o CMakeFiles/FinAnal.dir/src/containers/calculation_engine.cpp.s
+
+CMakeFiles/FinAnal.dir/test/test_black_scholes.cpp.o: CMakeFiles/FinAnal.dir/flags.make
+CMakeFiles/FinAnal.dir/test/test_black_scholes.cpp.o: ../test/test_black_scholes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/naked/CLionProjects/FinAnal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/FinAnal.dir/test/test_black_scholes.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FinAnal.dir/test/test_black_scholes.cpp.o -c /cygdrive/c/Users/naked/CLionProjects/FinAnal/test/test_black_scholes.cpp
+
+CMakeFiles/FinAnal.dir/test/test_black_scholes.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FinAnal.dir/test/test_black_scholes.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/naked/CLionProjects/FinAnal/test/test_black_scholes.cpp > CMakeFiles/FinAnal.dir/test/test_black_scholes.cpp.i
+
+CMakeFiles/FinAnal.dir/test/test_black_scholes.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FinAnal.dir/test/test_black_scholes.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/naked/CLionProjects/FinAnal/test/test_black_scholes.cpp -o CMakeFiles/FinAnal.dir/test/test_black_scholes.cpp.s
+
+CMakeFiles/FinAnal.dir/src/main_old.cpp.o: CMakeFiles/FinAnal.dir/flags.make
+CMakeFiles/FinAnal.dir/src/main_old.cpp.o: ../src/main_old.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/naked/CLionProjects/FinAnal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/FinAnal.dir/src/main_old.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FinAnal.dir/src/main_old.cpp.o -c /cygdrive/c/Users/naked/CLionProjects/FinAnal/src/main_old.cpp
+
+CMakeFiles/FinAnal.dir/src/main_old.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FinAnal.dir/src/main_old.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/naked/CLionProjects/FinAnal/src/main_old.cpp > CMakeFiles/FinAnal.dir/src/main_old.cpp.i
+
+CMakeFiles/FinAnal.dir/src/main_old.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FinAnal.dir/src/main_old.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/naked/CLionProjects/FinAnal/src/main_old.cpp -o CMakeFiles/FinAnal.dir/src/main_old.cpp.s
+
+CMakeFiles/FinAnal.dir/test/test_runner.cpp.o: CMakeFiles/FinAnal.dir/flags.make
+CMakeFiles/FinAnal.dir/test/test_runner.cpp.o: ../test/test_runner.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/naked/CLionProjects/FinAnal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/FinAnal.dir/test/test_runner.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FinAnal.dir/test/test_runner.cpp.o -c /cygdrive/c/Users/naked/CLionProjects/FinAnal/test/test_runner.cpp
+
+CMakeFiles/FinAnal.dir/test/test_runner.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FinAnal.dir/test/test_runner.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/naked/CLionProjects/FinAnal/test/test_runner.cpp > CMakeFiles/FinAnal.dir/test/test_runner.cpp.i
+
+CMakeFiles/FinAnal.dir/test/test_runner.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FinAnal.dir/test/test_runner.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/naked/CLionProjects/FinAnal/test/test_runner.cpp -o CMakeFiles/FinAnal.dir/test/test_runner.cpp.s
+
+CMakeFiles/FinAnal.dir/test/test_date_utils.cpp.o: CMakeFiles/FinAnal.dir/flags.make
+CMakeFiles/FinAnal.dir/test/test_date_utils.cpp.o: ../test/test_date_utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/naked/CLionProjects/FinAnal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/FinAnal.dir/test/test_date_utils.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FinAnal.dir/test/test_date_utils.cpp.o -c /cygdrive/c/Users/naked/CLionProjects/FinAnal/test/test_date_utils.cpp
+
+CMakeFiles/FinAnal.dir/test/test_date_utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FinAnal.dir/test/test_date_utils.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/naked/CLionProjects/FinAnal/test/test_date_utils.cpp > CMakeFiles/FinAnal.dir/test/test_date_utils.cpp.i
+
+CMakeFiles/FinAnal.dir/test/test_date_utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FinAnal.dir/test/test_date_utils.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/naked/CLionProjects/FinAnal/test/test_date_utils.cpp -o CMakeFiles/FinAnal.dir/test/test_date_utils.cpp.s
 
 # Object files for target FinAnal
 FinAnal_OBJECTS = \
-"CMakeFiles/FinAnal.dir/main.cpp.o" \
-"CMakeFiles/FinAnal.dir/trade.cpp.o" \
-"CMakeFiles/FinAnal.dir/erfinv.cpp.o" \
-"CMakeFiles/FinAnal.dir/black_scholes.cpp.o"
+"CMakeFiles/FinAnal.dir/src/containers/trade.cpp.o" \
+"CMakeFiles/FinAnal.dir/src/utils/erfinv.cpp.o" \
+"CMakeFiles/FinAnal.dir/src/models/black_scholes.cpp.o" \
+"CMakeFiles/FinAnal.dir/src/models/model_config.cpp.o" \
+"CMakeFiles/FinAnal.dir/src/containers/calculation_engine.cpp.o" \
+"CMakeFiles/FinAnal.dir/test/test_black_scholes.cpp.o" \
+"CMakeFiles/FinAnal.dir/src/main_old.cpp.o" \
+"CMakeFiles/FinAnal.dir/test/test_runner.cpp.o" \
+"CMakeFiles/FinAnal.dir/test/test_date_utils.cpp.o"
 
 # External object files for target FinAnal
 FinAnal_EXTERNAL_OBJECTS =
 
-FinAnal.exe: CMakeFiles/FinAnal.dir/main.cpp.o
-FinAnal.exe: CMakeFiles/FinAnal.dir/trade.cpp.o
-FinAnal.exe: CMakeFiles/FinAnal.dir/erfinv.cpp.o
-FinAnal.exe: CMakeFiles/FinAnal.dir/black_scholes.cpp.o
+FinAnal.exe: CMakeFiles/FinAnal.dir/src/containers/trade.cpp.o
+FinAnal.exe: CMakeFiles/FinAnal.dir/src/utils/erfinv.cpp.o
+FinAnal.exe: CMakeFiles/FinAnal.dir/src/models/black_scholes.cpp.o
+FinAnal.exe: CMakeFiles/FinAnal.dir/src/models/model_config.cpp.o
+FinAnal.exe: CMakeFiles/FinAnal.dir/src/containers/calculation_engine.cpp.o
+FinAnal.exe: CMakeFiles/FinAnal.dir/test/test_black_scholes.cpp.o
+FinAnal.exe: CMakeFiles/FinAnal.dir/src/main_old.cpp.o
+FinAnal.exe: CMakeFiles/FinAnal.dir/test/test_runner.cpp.o
+FinAnal.exe: CMakeFiles/FinAnal.dir/test/test_date_utils.cpp.o
 FinAnal.exe: CMakeFiles/FinAnal.dir/build.make
 FinAnal.exe: /usr/lib/libboost_date_time.dll.a
 FinAnal.exe: CMakeFiles/FinAnal.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/naked/CLionProjects/FinAnal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable FinAnal.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/naked/CLionProjects/FinAnal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable FinAnal.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/FinAnal.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

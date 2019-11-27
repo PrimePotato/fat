@@ -34,12 +34,12 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/../../../../lib/../include/w32api"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/naked/CLionProjects/FinAnal/cmake-build-debug/Makefile&quot;  VERBOSE=1 FinAnal"/>
@@ -55,12 +55,12 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/../../../../lib/../include/w32api"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/naked/CLionProjects/FinAnal/cmake-build-debug/Makefile&quot;  VERBOSE=1 FinAnal/fast"/>
@@ -80,37 +80,58 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/black_scholes.cpp">
+		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/src/containers/calculation_engine.cpp">
 			<Option target="FinAnal"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/black_scholes.h">
+		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/src/containers/calculation_engine.h">
 			<Option target="FinAnal"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/date_utils.h">
+		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/src/containers/market.h">
 			<Option target="FinAnal"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/erfinv.cpp">
+		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/src/containers/trade.cpp">
 			<Option target="FinAnal"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/erfinv.h">
+		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/src/containers/trade.h">
 			<Option target="FinAnal"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/main.cpp">
+		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/src/main_old.cpp">
 			<Option target="FinAnal"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/market.h">
+		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/src/models/black_scholes.cpp">
 			<Option target="FinAnal"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/risk_engine.h">
+		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/src/models/black_scholes.h">
 			<Option target="FinAnal"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/trade.cpp">
+		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/src/models/currency.h">
 			<Option target="FinAnal"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/trade.h">
+		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/src/models/model_config.cpp">
 			<Option target="FinAnal"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/utils.h">
+		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/src/models/model_config.h">
+			<Option target="FinAnal"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/src/utils/date_utils.h">
+			<Option target="FinAnal"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/src/utils/erfinv.cpp">
+			<Option target="FinAnal"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/src/utils/erfinv.h">
+			<Option target="FinAnal"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/src/utils/utils.h">
+			<Option target="FinAnal"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/test/test_black_scholes.cpp">
+			<Option target="FinAnal"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/test/test_date_utils.cpp">
+			<Option target="FinAnal"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/test/test_runner.cpp">
 			<Option target="FinAnal"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/CMakeLists.txt">
