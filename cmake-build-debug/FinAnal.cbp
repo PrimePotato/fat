@@ -80,58 +80,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/src/containers/calculation_engine.cpp">
-			<Option target="FinAnal"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/src/containers/calculation_engine.h">
-			<Option target="FinAnal"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/src/containers/market.h">
-			<Option target="FinAnal"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/src/containers/trade.cpp">
-			<Option target="FinAnal"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/src/containers/trade.h">
-			<Option target="FinAnal"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/src/main_old.cpp">
-			<Option target="FinAnal"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/src/models/black_scholes.cpp">
-			<Option target="FinAnal"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/src/models/black_scholes.h">
-			<Option target="FinAnal"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/src/models/currency.h">
-			<Option target="FinAnal"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/src/models/model_config.cpp">
-			<Option target="FinAnal"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/src/models/model_config.h">
-			<Option target="FinAnal"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/src/utils/date_utils.h">
-			<Option target="FinAnal"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/src/utils/erfinv.cpp">
-			<Option target="FinAnal"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/src/utils/erfinv.h">
-			<Option target="FinAnal"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/src/utils/utils.h">
-			<Option target="FinAnal"/>
-		</Unit>
 		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/test/test_black_scholes.cpp">
+			<Option target="FinAnal"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/test/test_conventions.cpp">
+			<Option target="FinAnal"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/test/test_currency.cpp">
 			<Option target="FinAnal"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/test/test_date_utils.cpp">
 			<Option target="FinAnal"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/test/test_runner.cpp">
+			<Option target="FinAnal"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/test/test_utils.cpp">
 			<Option target="FinAnal"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/naked/CLionProjects/FinAnal/CMakeLists.txt">

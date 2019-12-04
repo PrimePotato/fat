@@ -11,23 +11,16 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88881719-da1b-45af-b63d-86b3231cafbe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main_old.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/currency.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/model_config.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/model_config.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/risk_engine.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_black_scholes.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_date_utils.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_runner.cpp" afterDir="false" />
+    <list default="true" id="88881719-da1b-45af-b63d-86b3231cafbe" name="Default Changelist" comment="refactor">
+      <change afterPath="$PROJECT_DIR$/res/currency.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/yield_curve.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/yield_curve.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/conventions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_conventions.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_currency.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_utils.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/black_scholes.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/black_scholes.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/black_scholes.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/black_scholes.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CMakeCXXCompiler.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CMakeSystem.cmake" afterDir="false" />
@@ -36,40 +29,21 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinAnal.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinAnal.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinAnal.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinAnal.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinAnal.dir/black_scholes.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinAnal.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinAnal.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinAnal.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinAnal.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinAnal.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinAnal.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinAnal.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinAnal.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinAnal.dir/erfinv.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinAnal.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinAnal.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinAnal.dir/main.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinAnal.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinAnal.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinAnal.dir/trade.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progname.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progname.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progname.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progname.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progname.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progname.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progname.dir/progress.make" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/FinAnal.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/FinAnal.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/FinAnal.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/FinAnal.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FinAnal.exe.stackdump" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/FinAnal.exe.stackdump" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/date_utils.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/date_utils.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/erfinv.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/erfinv.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/erfinv.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/erfinv.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/market.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/market.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/risk_engine.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/risk_engine.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trade.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/trade.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trade.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/trade.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/currency.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/currency.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/utils.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/utils.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,12 +52,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FUSProjectUsageTrigger">
     <session id="-1717592614">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
@@ -96,42 +69,49 @@
           <entry key="algorithm" value="1" />
           <entry key="cc" value="5" />
           <entry key="cmake" value="1" />
-          <entry key="cpp" value="29" />
+          <entry key="cpp" value="39" />
           <entry key="gitignore" value="2" />
-          <entry key="h" value="33" />
-          <entry key="hpp" value="1" />
+          <entry key="h" value="40" />
+          <entry key="hpp" value="4" />
           <entry key="ipp" value="1" />
-          <entry key="txt" value="4" />
+          <entry key="json" value="2" />
+          <entry key="test_currency_pair_init (disassembly)" value="3" />
+          <entry key="txt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeCache.txt" value="2" />
-          <entry key="CMakeLists.txt" value="3" />
-          <entry key="Disassembly" value="1" />
-          <entry key="ObjectiveC" value="70" />
+          <entry key="CMakeLists.txt" value="4" />
+          <entry key="Disassembly" value="4" />
+          <entry key="JSON" value="2" />
+          <entry key="ObjectiveC" value="90" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="3028" />
+          <entry key="cpp" value="3499" />
           <entry key="gitignore" value="1" />
-          <entry key="h" value="3090" />
-          <entry key="mm" value="178" />
-          <entry key="txt" value="194" />
+          <entry key="h" value="5728" />
+          <entry key="json" value="164" />
+          <entry key="mm" value="271" />
+          <entry key="txt" value="216" />
+          <entry key="yaml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="194" />
-          <entry key="ObjectiveC" value="6296" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="CMakeLists.txt" value="206" />
+          <entry key="JSON" value="164" />
+          <entry key="ObjectiveC" value="9498" />
+          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="YAML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.cidr.testingFrameworks.usages">
         <counts>
-          <entry key="Boost Test" value="18" />
+          <entry key="Boost Test" value="43" />
         </counts>
       </usages-collector>
     </session>
@@ -139,33 +119,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main_old.cpp">
+        <entry file="file://$PROJECT_DIR$/src/containers/currency.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/models/black_scholes.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-237">
-              <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+            <state relative-caret-position="816">
+              <caret line="51" selection-start-line="51" selection-end-line="68" selection-end-column="2" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/risk_engine.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="12" selection-start-line="12" selection-end-line="18" selection-end-column="2" />
-              <folding>
-                <element signature="e#103#122#0" expanded="true" />
+                <element signature="e#42#59#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -174,8 +133,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/models/black_scholes.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="832">
-              <caret line="52" column="72" selection-start-line="52" selection-start-column="72" selection-end-line="52" selection-end-column="72" />
+            <state relative-caret-position="64">
+              <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="36" />
               <folding>
                 <element signature="e#117#134#0" expanded="true" />
               </folding>
@@ -184,61 +143,86 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/models/model_config.cpp">
+        <entry file="file://$PROJECT_DIR$/res/currency.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="256">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/trade.cpp">
+        <entry file="file://$PROJECT_DIR$/src/static/conventions.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/trade.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="96">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
-                <element signature="e#103#120#0" expanded="true" />
+                <element signature="e#42#67#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_conventions.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+              <folding>
+                <element signature="e#42#83#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/models/yield_curve.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/models/currency.h">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+            <state relative-caret-position="240">
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/risk_engine.cpp">
+        <entry file="file://$PROJECT_DIR$/test/test_date_utils.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="176">
+              <caret line="11" selection-start-line="11" selection-end-line="15" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/utils.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
               <folding>
-                <element signature="e#42#66#0" expanded="true" />
+                <element signature="e#91#108#0" expanded="true" />
+                <element signature="e#141#153#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/models/model_config.h">
+        <entry file="file://$PROJECT_DIR$/test/test_currency.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="48">
+              <caret line="3" selection-start-line="3" selection-end-line="25" />
+              <folding>
+                <element signature="e#42#83#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -248,7 +232,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>finanal</find>
+      <find>float</find>
     </findStrings>
+    <replaceStrings>
+      <replace>double</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -276,11 +264,20 @@
         <option value="$PROJECT_DIR$/unit_tests/main.cpp" />
         <option value="$PROJECT_DIR$/unit_tests/test_runner.cpp" />
         <option value="$PROJECT_DIR$/unit_tests/test_date_utils.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/unit_tests/test_black_scholes.cpp" />
         <option value="$PROJECT_DIR$/test/test_black_scholes.cpp" />
         <option value="$PROJECT_DIR$/src/risk_engine.cpp" />
         <option value="$PROJECT_DIR$/src/models/currency.h" />
+        <option value="$PROJECT_DIR$/resources/currency.json" />
+        <option value="$PROJECT_DIR$/test/test_currency.cpp" />
+        <option value="$PROJECT_DIR$/src/models/yield_curve.h" />
+        <option value="$PROJECT_DIR$/test/test_utils.cpp" />
+        <option value="$PROJECT_DIR$/src/containers/currency.h" />
+        <option value="$PROJECT_DIR$/res/currency.yaml" />
+        <option value="$PROJECT_DIR$/src/utils/utils.h" />
+        <option value="$PROJECT_DIR$/test/test_conventions.cpp" />
+        <option value="$PROJECT_DIR$/src/static/conventions.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -291,11 +288,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="976" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -314,13 +310,17 @@
             <path>
               <item name="FinAnal" type="b2602c69:ProjectViewProjectNode" />
               <item name="FinAnal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FinAnal" type="b2602c69:ProjectViewProjectNode" />
               <item name="FinAnal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FinAnal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinAnal" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -332,17 +332,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.python" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\naked\CLionProjects\FinAnal\src\models" />
+      <recent name="C:\Users\naked\CLionProjects\FinAnal\src\containers" />
       <recent name="C:\Users\naked\CLionProjects\FinAnal\src\utils" />
+      <recent name="C:\Users\naked\CLionProjects\FinAnal\src\models" />
       <recent name="C:\Users\naked\CLionProjects\FinAnal\src" />
       <recent name="C:\Users\naked\CLionProjects\FinAnal" />
-      <recent name="C:\Users\naked\CLionProjects\FinAnal\unit_tests" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\naked\CLionProjects\FinAnal\test" />
       <recent name="C:\Users\naked\CLionProjects\FinAnal\unit_tests" />
       <recent name="C:\Users\naked\CLionProjects\FinAnal" />
     </key>
@@ -360,22 +361,22 @@
     </option>
   </component>
   <component name="RunManager" selected="Boost.Test.test_vega">
-    <configuration name="All in test_black_scholes.cpp" type="CMakeBoostTestRunConfigurationType" factoryName="Boost Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FinAnal" TARGET_NAME="FinAnal" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="FinAnal" RUN_TARGET_NAME="FinAnal" TEST_PATTERN="test_price:test_delta:test_vega:test_gamma" TEST_MODE="PATTERN">
+    <configuration name="test_currency_init" type="CMakeBoostTestRunConfigurationType" factoryName="Boost Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FinAnal" TARGET_NAME="FinAnal" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="FinAnal" RUN_TARGET_NAME="FinAnal" TEST_METHOD="test_currency_init" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in test_runner.cpp" type="CMakeBoostTestRunConfigurationType" factoryName="Boost Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FinAnal" TARGET_NAME="FinAnal" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="FinAnal" RUN_TARGET_NAME="FinAnal" TEST_PATTERN="" TEST_MODE="PATTERN">
+    <configuration name="test_currency_pair_init" type="CMakeBoostTestRunConfigurationType" factoryName="Boost Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FinAnal" TARGET_NAME="FinAnal" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="FinAnal" RUN_TARGET_NAME="FinAnal" TEST_METHOD="test_currency_pair_init" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test_price" type="CMakeBoostTestRunConfigurationType" factoryName="Boost Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FinAnal" TARGET_NAME="FinAnal" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="FinAnal" RUN_TARGET_NAME="FinAnal" TEST_METHOD="test_price" TEST_MODE="SUITE_TEST">
+    <configuration name="test_fx_conventions" type="CMakeBoostTestRunConfigurationType" factoryName="Boost Test" temporary="true" PASS_PARENT_ENVS_2="true" TEST_METHOD="test_fx_conventions" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test_resolve_tenor" type="CMakeBoostTestRunConfigurationType" factoryName="Boost Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FinAnal" TARGET_NAME="FinAnal" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="FinAnal" RUN_TARGET_NAME="FinAnal" TEST_METHOD="test_resolve_tenor" TEST_MODE="SUITE_TEST">
+    <configuration name="test_interpolate" type="CMakeBoostTestRunConfigurationType" factoryName="Boost Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FinAnal" TARGET_NAME="FinAnal" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="FinAnal" RUN_TARGET_NAME="FinAnal" TEST_METHOD="test_interpolate" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -398,19 +399,19 @@
     <list>
       <item itemvalue="Application.Build All" />
       <item itemvalue="Application.FinAnal" />
-      <item itemvalue="Boost.Test.test_price" />
       <item itemvalue="Boost.Test.test_vega" />
-      <item itemvalue="Boost.Test.All in test_black_scholes.cpp" />
-      <item itemvalue="Boost.Test.test_resolve_tenor" />
-      <item itemvalue="Boost.Test.All in test_runner.cpp" />
+      <item itemvalue="Boost.Test.test_currency_init" />
+      <item itemvalue="Boost.Test.test_currency_pair_init" />
+      <item itemvalue="Boost.Test.test_interpolate" />
+      <item itemvalue="Boost.Test.test_fx_conventions" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Boost.Test.test_vega" />
-        <item itemvalue="Boost.Test.All in test_runner.cpp" />
-        <item itemvalue="Boost.Test.test_resolve_tenor" />
-        <item itemvalue="Boost.Test.test_price" />
-        <item itemvalue="Boost.Test.All in test_black_scholes.cpp" />
+        <item itemvalue="Boost.Test.test_interpolate" />
+        <item itemvalue="Boost.Test.test_fx_conventions" />
+        <item itemvalue="Boost.Test.test_currency_pair_init" />
+        <item itemvalue="Boost.Test.test_currency_init" />
       </list>
     </recent_temporary>
   </component>
@@ -426,91 +427,98 @@
       <updated>1535232967545</updated>
       <workItem from="1535232968861" duration="42119000" />
       <workItem from="1535407215572" duration="17776000" />
-      <workItem from="1574867957228" duration="1606000" />
+      <workItem from="1574867957228" duration="22431000" />
     </task>
+    <task id="LOCAL-00001" summary="refactor">
+      <created>1574869934399</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574869934399</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_test_black_scholes_cpp - 2018.09.01 at 14h 59m 57s.xml">
-      <configuration name="All in test_black_scholes.cpp" configurationId="CMakeBoostTestRunConfigurationType" />
+    <history-entry file="test_currency_pair_init - 2019.11.27 at 17h 51m 48s.xml">
+      <configuration name="test_currency_pair_init" configurationId="CMakeBoostTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_price - 2018.09.01 at 16h 55m 32s.xml">
-      <configuration name="test_price" configurationId="CMakeBoostTestRunConfigurationType" />
+    <history-entry file="test_currency_pair_init - 2019.11.27 at 17h 53m 12s.xml">
+      <configuration name="test_currency_pair_init" configurationId="CMakeBoostTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_delta - 2018.09.01 at 17h 23m 57s.xml">
-      <configuration name="test_delta" configurationId="CMakeBoostTestRunConfigurationType" />
+    <history-entry file="test_currency_pair_init - 2019.11.27 at 17h 56m 15s.xml">
+      <configuration name="test_currency_pair_init" configurationId="CMakeBoostTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_delta - 2018.09.01 at 17h 25m 53s.xml">
-      <configuration name="test_delta" configurationId="CMakeBoostTestRunConfigurationType" />
+    <history-entry file="test_currency_pair_init - 2019.11.27 at 18h 19m 19s.xml">
+      <configuration name="test_currency_pair_init" configurationId="CMakeBoostTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_gamma - 2018.09.01 at 17h 26m 10s.xml">
-      <configuration name="test_gamma" configurationId="CMakeBoostTestRunConfigurationType" />
+    <history-entry file="test_currency_pair_init - 2019.11.27 at 18h 19m 24s.xml">
+      <configuration name="test_currency_pair_init" configurationId="CMakeBoostTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_vega - 2018.09.01 at 17h 26m 26s.xml">
-      <configuration name="test_vega" configurationId="CMakeBoostTestRunConfigurationType" />
+    <history-entry file="test_currency_pair_init - 2019.11.27 at 18h 19m 51s.xml">
+      <configuration name="test_currency_pair_init" configurationId="CMakeBoostTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_in_test_black_scholes_cpp - 2018.09.01 at 17h 26m 40s.xml">
-      <configuration name="All in test_black_scholes.cpp" configurationId="CMakeBoostTestRunConfigurationType" />
+    <history-entry file="test_currency_pair_init - 2019.11.27 at 18h 41m 52s.xml">
+      <configuration name="test_currency_pair_init" configurationId="CMakeBoostTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_in_test_runner_cpp - 2018.09.01 at 17h 32m 04s.xml">
-      <configuration name="All in test_runner.cpp" configurationId="CMakeBoostTestRunConfigurationType" />
+    <history-entry file="test_interpolate - 2019.11.27 at 21h 32m 15s.xml">
+      <configuration name="test_interpolate" configurationId="CMakeBoostTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_in_test_runner_cpp - 2018.09.01 at 21h 12m 15s.xml">
-      <configuration name="All in test_runner.cpp" configurationId="CMakeBoostTestRunConfigurationType" />
+    <history-entry file="test_interpolate - 2019.11.30 at 22h 33m 50s.xml">
+      <configuration name="test_interpolate" configurationId="CMakeBoostTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_vega - 2019.11.27 at 15h 30m 12s.xml">
-      <configuration name="test_vega" configurationId="CMakeBoostTestRunConfigurationType" />
+    <history-entry file="test_interpolate - 2019.11.30 at 22h 39m 58s.xml">
+      <configuration name="test_interpolate" configurationId="CMakeBoostTestRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61501000" />
+    <option name="totallyTimeSpent" value="82326000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="976" height="1056" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532751" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12313433" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.47925764" visible="true" weight="0.4099783" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49671772" weight="0.39868566" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.470524" weight="0.4099783" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49671772" weight="0.39804772" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.47707424" weight="0.3308026" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.46724892" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32968238" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.52074236" side_tool="true" visible="true" weight="0.4099783" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="CMake" order="12" sideWeight="0.49840087" weight="0.3286334" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5327511" side_tool="true" weight="0.3308026" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4978166" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="CMake" order="12" sideWeight="0.49840087" visible="true" weight="0.3286334" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
     <layout-to-restore>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24945295" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="4" weight="0.32968238" />
-      <window_info anchor="bottom" id="CMake" order="5" weight="0.32968238" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.32968238" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="right" id="Database" order="0" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12313433" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.470524" visible="true" weight="0.4099783" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49671772" weight="0.39804772" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.46724892" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32968238" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5327511" side_tool="true" weight="0.3308026" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4978166" weight="0.329718" />
+      <window_info anchor="bottom" id="CMake" order="12" sideWeight="0.49840087" weight="0.3286334" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -519,55 +527,80 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/test_utils.cpp</url>
+          <line>20</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/utils/utils.h</url>
+          <line>27</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/test_conventions.cpp</url>
+          <line>4</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/test/test_conventions.cpp</url>
+          <line>14</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>(1 / (*(args+2) * sqrt(*(args+3))))</expression-string>
+        <expression-string>chd.get_value()</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>(1 / (*(args+2) * std::sqrt(*(args+3))))</expression-string>
+        <expression-string>chd.data()</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>new double[4]{1,2,3,4}</expression-string>
+        <expression-string>chd.data().size()</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>new double[4]{f,k,v,t}</expression-string>
+        <expression-string>chd</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>price(1,2,3,4,5, true)</expression-string>
+        <expression-string>chd.m_data</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>*(args + 3)</expression-string>
+        <expression-string>file.is_open()</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>*(args + 4)</expression-string>
+        <expression-string>file</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>*args, *(args + 1), *(args + 2), *(args + 3), *(args + 4)</expression-string>
+        <expression-string>root.get_child(&quot;root.values&quot;)</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>*args, *(args + 1), *(args + 2), *(args + 3), *(args + 4),</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>price(*args, *(args + 1), *(args + 2), *(args + 3), *(args + 4), call)</expression-string>
+        <expression-string>root.get_child(&quot;bob&quot;)</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -578,13 +611,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Date.h" />
-    <entry file="file://C:/cygwin64/usr/include/boost/throw_exception.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/cygwin64/lib/gcc/x86_64-pc-cygwin/7.3.0/include/c++/bits/uniform_int_dist.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -606,7 +632,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/market.h">
+    <entry file="file://$PROJECT_DIR$/src/containers/market.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
@@ -644,13 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aglib/tests/test_c.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -665,34 +684,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_date_utils.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_runner.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
           <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_black_scholes.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -716,13 +711,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/model_config.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/models/model_config.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
@@ -737,44 +725,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/trade.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/trade.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#103#120#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/black_scholes.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="832">
-          <caret line="52" column="72" selection-start-line="52" selection-start-column="72" selection-end-line="52" selection-end-column="72" />
-          <folding>
-            <element signature="e#117#134#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/black_scholes.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-237">
-          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/risk_engine.h">
+    <entry file="file://$PROJECT_DIR$/src/containers/calculation_engine.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="12" selection-start-line="12" selection-end-line="18" selection-end-column="2" />
@@ -784,20 +735,177 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/risk_engine.cpp">
+    <entry file="file://$PROJECT_DIR$/src/containers/calculation_engine.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#42#66#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/currency.h">
+    <entry file="file://$PROJECT_DIR$/src/containers/trade.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/trade.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+          <folding>
+            <element signature="e#103#120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/cygwin64/usr/include/boost/property_tree/detail/ptree_implementation.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="570" column="30" selection-start-line="570" selection-start-column="30" selection-end-line="570" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/cygwin64/usr/include/boost/throw_exception.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_black_scholes.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/black_scholes.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_utils.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#43#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/yield_curve.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/model_config.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_date_utils.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" selection-start-line="11" selection-end-line="15" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/currency.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="51" selection-start-line="51" selection-end-line="68" selection-end-column="2" />
+          <folding>
+            <element signature="e#42#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/currency.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/utils.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+          <folding>
+            <element signature="e#91#108#0" expanded="true" />
+            <element signature="e#141#153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/yield_curve.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/black_scholes.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="36" />
+          <folding>
+            <element signature="e#117#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/static/conventions.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#42#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_conventions.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding>
+            <element signature="e#42#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_currency.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" selection-start-line="3" selection-end-line="25" />
+          <folding>
+            <element signature="e#42#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
         </state>
       </provider>
     </entry>

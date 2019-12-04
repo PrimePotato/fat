@@ -1,0 +1,17 @@
+"CurrencyList": [
+{
+  "code": "EUR",
+  "quote_rank": 1,
+  "payment_rank": 2
+},
+{
+  "code": "USD",
+  "quote_rank": 4,
+  "payment_rank": 1
+},
+{
+  "code": "GBP",
+  "quote_rank": 2,
+  "payment_rank": 3
+}
+]

@@ -123,168 +123,6 @@ FinAnal/fast:
 	$(MAKE) -f CMakeFiles/FinAnal.dir/build.make CMakeFiles/FinAnal.dir/build
 .PHONY : FinAnal/fast
 
-src/containers/calculation_engine.o: src/containers/calculation_engine.cpp.o
-
-.PHONY : src/containers/calculation_engine.o
-
-# target to build an object file
-src/containers/calculation_engine.cpp.o:
-	$(MAKE) -f CMakeFiles/FinAnal.dir/build.make CMakeFiles/FinAnal.dir/src/containers/calculation_engine.cpp.o
-.PHONY : src/containers/calculation_engine.cpp.o
-
-src/containers/calculation_engine.i: src/containers/calculation_engine.cpp.i
-
-.PHONY : src/containers/calculation_engine.i
-
-# target to preprocess a source file
-src/containers/calculation_engine.cpp.i:
-	$(MAKE) -f CMakeFiles/FinAnal.dir/build.make CMakeFiles/FinAnal.dir/src/containers/calculation_engine.cpp.i
-.PHONY : src/containers/calculation_engine.cpp.i
-
-src/containers/calculation_engine.s: src/containers/calculation_engine.cpp.s
-
-.PHONY : src/containers/calculation_engine.s
-
-# target to generate assembly for a file
-src/containers/calculation_engine.cpp.s:
-	$(MAKE) -f CMakeFiles/FinAnal.dir/build.make CMakeFiles/FinAnal.dir/src/containers/calculation_engine.cpp.s
-.PHONY : src/containers/calculation_engine.cpp.s
-
-src/containers/trade.o: src/containers/trade.cpp.o
-
-.PHONY : src/containers/trade.o
-
-# target to build an object file
-src/containers/trade.cpp.o:
-	$(MAKE) -f CMakeFiles/FinAnal.dir/build.make CMakeFiles/FinAnal.dir/src/containers/trade.cpp.o
-.PHONY : src/containers/trade.cpp.o
-
-src/containers/trade.i: src/containers/trade.cpp.i
-
-.PHONY : src/containers/trade.i
-
-# target to preprocess a source file
-src/containers/trade.cpp.i:
-	$(MAKE) -f CMakeFiles/FinAnal.dir/build.make CMakeFiles/FinAnal.dir/src/containers/trade.cpp.i
-.PHONY : src/containers/trade.cpp.i
-
-src/containers/trade.s: src/containers/trade.cpp.s
-
-.PHONY : src/containers/trade.s
-
-# target to generate assembly for a file
-src/containers/trade.cpp.s:
-	$(MAKE) -f CMakeFiles/FinAnal.dir/build.make CMakeFiles/FinAnal.dir/src/containers/trade.cpp.s
-.PHONY : src/containers/trade.cpp.s
-
-src/main_old.o: src/main_old.cpp.o
-
-.PHONY : src/main_old.o
-
-# target to build an object file
-src/main_old.cpp.o:
-	$(MAKE) -f CMakeFiles/FinAnal.dir/build.make CMakeFiles/FinAnal.dir/src/main_old.cpp.o
-.PHONY : src/main_old.cpp.o
-
-src/main_old.i: src/main_old.cpp.i
-
-.PHONY : src/main_old.i
-
-# target to preprocess a source file
-src/main_old.cpp.i:
-	$(MAKE) -f CMakeFiles/FinAnal.dir/build.make CMakeFiles/FinAnal.dir/src/main_old.cpp.i
-.PHONY : src/main_old.cpp.i
-
-src/main_old.s: src/main_old.cpp.s
-
-.PHONY : src/main_old.s
-
-# target to generate assembly for a file
-src/main_old.cpp.s:
-	$(MAKE) -f CMakeFiles/FinAnal.dir/build.make CMakeFiles/FinAnal.dir/src/main_old.cpp.s
-.PHONY : src/main_old.cpp.s
-
-src/models/black_scholes.o: src/models/black_scholes.cpp.o
-
-.PHONY : src/models/black_scholes.o
-
-# target to build an object file
-src/models/black_scholes.cpp.o:
-	$(MAKE) -f CMakeFiles/FinAnal.dir/build.make CMakeFiles/FinAnal.dir/src/models/black_scholes.cpp.o
-.PHONY : src/models/black_scholes.cpp.o
-
-src/models/black_scholes.i: src/models/black_scholes.cpp.i
-
-.PHONY : src/models/black_scholes.i
-
-# target to preprocess a source file
-src/models/black_scholes.cpp.i:
-	$(MAKE) -f CMakeFiles/FinAnal.dir/build.make CMakeFiles/FinAnal.dir/src/models/black_scholes.cpp.i
-.PHONY : src/models/black_scholes.cpp.i
-
-src/models/black_scholes.s: src/models/black_scholes.cpp.s
-
-.PHONY : src/models/black_scholes.s
-
-# target to generate assembly for a file
-src/models/black_scholes.cpp.s:
-	$(MAKE) -f CMakeFiles/FinAnal.dir/build.make CMakeFiles/FinAnal.dir/src/models/black_scholes.cpp.s
-.PHONY : src/models/black_scholes.cpp.s
-
-src/models/model_config.o: src/models/model_config.cpp.o
-
-.PHONY : src/models/model_config.o
-
-# target to build an object file
-src/models/model_config.cpp.o:
-	$(MAKE) -f CMakeFiles/FinAnal.dir/build.make CMakeFiles/FinAnal.dir/src/models/model_config.cpp.o
-.PHONY : src/models/model_config.cpp.o
-
-src/models/model_config.i: src/models/model_config.cpp.i
-
-.PHONY : src/models/model_config.i
-
-# target to preprocess a source file
-src/models/model_config.cpp.i:
-	$(MAKE) -f CMakeFiles/FinAnal.dir/build.make CMakeFiles/FinAnal.dir/src/models/model_config.cpp.i
-.PHONY : src/models/model_config.cpp.i
-
-src/models/model_config.s: src/models/model_config.cpp.s
-
-.PHONY : src/models/model_config.s
-
-# target to generate assembly for a file
-src/models/model_config.cpp.s:
-	$(MAKE) -f CMakeFiles/FinAnal.dir/build.make CMakeFiles/FinAnal.dir/src/models/model_config.cpp.s
-.PHONY : src/models/model_config.cpp.s
-
-src/utils/erfinv.o: src/utils/erfinv.cpp.o
-
-.PHONY : src/utils/erfinv.o
-
-# target to build an object file
-src/utils/erfinv.cpp.o:
-	$(MAKE) -f CMakeFiles/FinAnal.dir/build.make CMakeFiles/FinAnal.dir/src/utils/erfinv.cpp.o
-.PHONY : src/utils/erfinv.cpp.o
-
-src/utils/erfinv.i: src/utils/erfinv.cpp.i
-
-.PHONY : src/utils/erfinv.i
-
-# target to preprocess a source file
-src/utils/erfinv.cpp.i:
-	$(MAKE) -f CMakeFiles/FinAnal.dir/build.make CMakeFiles/FinAnal.dir/src/utils/erfinv.cpp.i
-.PHONY : src/utils/erfinv.cpp.i
-
-src/utils/erfinv.s: src/utils/erfinv.cpp.s
-
-.PHONY : src/utils/erfinv.s
-
-# target to generate assembly for a file
-src/utils/erfinv.cpp.s:
-	$(MAKE) -f CMakeFiles/FinAnal.dir/build.make CMakeFiles/FinAnal.dir/src/utils/erfinv.cpp.s
-.PHONY : src/utils/erfinv.cpp.s
-
 test/test_black_scholes.o: test/test_black_scholes.cpp.o
 
 .PHONY : test/test_black_scholes.o
@@ -311,6 +149,60 @@ test/test_black_scholes.s: test/test_black_scholes.cpp.s
 test/test_black_scholes.cpp.s:
 	$(MAKE) -f CMakeFiles/FinAnal.dir/build.make CMakeFiles/FinAnal.dir/test/test_black_scholes.cpp.s
 .PHONY : test/test_black_scholes.cpp.s
+
+test/test_conventions.o: test/test_conventions.cpp.o
+
+.PHONY : test/test_conventions.o
+
+# target to build an object file
+test/test_conventions.cpp.o:
+	$(MAKE) -f CMakeFiles/FinAnal.dir/build.make CMakeFiles/FinAnal.dir/test/test_conventions.cpp.o
+.PHONY : test/test_conventions.cpp.o
+
+test/test_conventions.i: test/test_conventions.cpp.i
+
+.PHONY : test/test_conventions.i
+
+# target to preprocess a source file
+test/test_conventions.cpp.i:
+	$(MAKE) -f CMakeFiles/FinAnal.dir/build.make CMakeFiles/FinAnal.dir/test/test_conventions.cpp.i
+.PHONY : test/test_conventions.cpp.i
+
+test/test_conventions.s: test/test_conventions.cpp.s
+
+.PHONY : test/test_conventions.s
+
+# target to generate assembly for a file
+test/test_conventions.cpp.s:
+	$(MAKE) -f CMakeFiles/FinAnal.dir/build.make CMakeFiles/FinAnal.dir/test/test_conventions.cpp.s
+.PHONY : test/test_conventions.cpp.s
+
+test/test_currency.o: test/test_currency.cpp.o
+
+.PHONY : test/test_currency.o
+
+# target to build an object file
+test/test_currency.cpp.o:
+	$(MAKE) -f CMakeFiles/FinAnal.dir/build.make CMakeFiles/FinAnal.dir/test/test_currency.cpp.o
+.PHONY : test/test_currency.cpp.o
+
+test/test_currency.i: test/test_currency.cpp.i
+
+.PHONY : test/test_currency.i
+
+# target to preprocess a source file
+test/test_currency.cpp.i:
+	$(MAKE) -f CMakeFiles/FinAnal.dir/build.make CMakeFiles/FinAnal.dir/test/test_currency.cpp.i
+.PHONY : test/test_currency.cpp.i
+
+test/test_currency.s: test/test_currency.cpp.s
+
+.PHONY : test/test_currency.s
+
+# target to generate assembly for a file
+test/test_currency.cpp.s:
+	$(MAKE) -f CMakeFiles/FinAnal.dir/build.make CMakeFiles/FinAnal.dir/test/test_currency.cpp.s
+.PHONY : test/test_currency.cpp.s
 
 test/test_date_utils.o: test/test_date_utils.cpp.o
 
@@ -366,6 +258,33 @@ test/test_runner.cpp.s:
 	$(MAKE) -f CMakeFiles/FinAnal.dir/build.make CMakeFiles/FinAnal.dir/test/test_runner.cpp.s
 .PHONY : test/test_runner.cpp.s
 
+test/test_utils.o: test/test_utils.cpp.o
+
+.PHONY : test/test_utils.o
+
+# target to build an object file
+test/test_utils.cpp.o:
+	$(MAKE) -f CMakeFiles/FinAnal.dir/build.make CMakeFiles/FinAnal.dir/test/test_utils.cpp.o
+.PHONY : test/test_utils.cpp.o
+
+test/test_utils.i: test/test_utils.cpp.i
+
+.PHONY : test/test_utils.i
+
+# target to preprocess a source file
+test/test_utils.cpp.i:
+	$(MAKE) -f CMakeFiles/FinAnal.dir/build.make CMakeFiles/FinAnal.dir/test/test_utils.cpp.i
+.PHONY : test/test_utils.cpp.i
+
+test/test_utils.s: test/test_utils.cpp.s
+
+.PHONY : test/test_utils.s
+
+# target to generate assembly for a file
+test/test_utils.cpp.s:
+	$(MAKE) -f CMakeFiles/FinAnal.dir/build.make CMakeFiles/FinAnal.dir/test/test_utils.cpp.s
+.PHONY : test/test_utils.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -375,33 +294,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... FinAnal"
 	@echo "... edit_cache"
-	@echo "... src/containers/calculation_engine.o"
-	@echo "... src/containers/calculation_engine.i"
-	@echo "... src/containers/calculation_engine.s"
-	@echo "... src/containers/trade.o"
-	@echo "... src/containers/trade.i"
-	@echo "... src/containers/trade.s"
-	@echo "... src/main_old.o"
-	@echo "... src/main_old.i"
-	@echo "... src/main_old.s"
-	@echo "... src/models/black_scholes.o"
-	@echo "... src/models/black_scholes.i"
-	@echo "... src/models/black_scholes.s"
-	@echo "... src/models/model_config.o"
-	@echo "... src/models/model_config.i"
-	@echo "... src/models/model_config.s"
-	@echo "... src/utils/erfinv.o"
-	@echo "... src/utils/erfinv.i"
-	@echo "... src/utils/erfinv.s"
 	@echo "... test/test_black_scholes.o"
 	@echo "... test/test_black_scholes.i"
 	@echo "... test/test_black_scholes.s"
+	@echo "... test/test_conventions.o"
+	@echo "... test/test_conventions.i"
+	@echo "... test/test_conventions.s"
+	@echo "... test/test_currency.o"
+	@echo "... test/test_currency.i"
+	@echo "... test/test_currency.s"
 	@echo "... test/test_date_utils.o"
 	@echo "... test/test_date_utils.i"
 	@echo "... test/test_date_utils.s"
 	@echo "... test/test_runner.o"
 	@echo "... test/test_runner.i"
 	@echo "... test/test_runner.s"
+	@echo "... test/test_utils.o"
+	@echo "... test/test_utils.i"
+	@echo "... test/test_utils.s"
 .PHONY : help
 
 
