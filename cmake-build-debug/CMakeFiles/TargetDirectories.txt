@@ -1,3 +1,0 @@
-/cygdrive/c/Users/naked/CLionProjects/FinAnal/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/cygdrive/c/Users/naked/CLionProjects/FinAnal/cmake-build-debug/CMakeFiles/FinAnal.dir
-/cygdrive/c/Users/naked/CLionProjects/FinAnal/cmake-build-debug/CMakeFiles/edit_cache.dir
