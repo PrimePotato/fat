@@ -2,7 +2,7 @@
 // Created by naked on 30/11/2019.
 //
 
-//#include <w32api/wsman.h>
+#include <w32api/wsman.h>
 #include <map>
 //#include <yaml.h>
 

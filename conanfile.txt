@@ -2,6 +2,7 @@
 [requires]
 boost/1.74.0
 gtest/1.10.0
+yaml-cpp/0.6.3
 
 [generators]
 cmake
