@@ -5,8 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/FinAnal.dir/test/test_date_utils.cpp.o"
   "CMakeFiles/FinAnal.dir/test/test_runner.cpp.o"
   "CMakeFiles/FinAnal.dir/test/test_utils.cpp.o"
-  "FinAnal.pdb"
   "FinAnal.exe"
+  "FinAnal.pdb"
   "libFinAnal.dll.a"
 )
 
